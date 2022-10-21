@@ -1,0 +1,24 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #e9e8be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #ffffff;
+  height: 400px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#color-block {
+	background-color: none;
+  height: 200px;
+  width: 200px;
+}

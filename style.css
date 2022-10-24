@@ -18,7 +18,7 @@ main {
 }
 
 #color-block {
-	/* background-color: none; */
+	/* background-color: none; -- Line not needed*/
   height: 150px;
   width: 150px;
 }

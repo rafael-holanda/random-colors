@@ -8,7 +8,9 @@ function hexGenerator(){
 }
 
 function colorSet(){
-	document.getElementById("color-block").style.backgroundColor = hexGenerator();
+  color = hexGenerator();
+	document.getElementById("color-block").style.backgroundColor = color;
+  document.getElementById("background").style.backgroundColor = color + "50";
 }
 
 colorSet();

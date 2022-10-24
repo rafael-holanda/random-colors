@@ -1,8 +1,16 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	/* Mantém o tamanho das boxes, sem somar com padding ou margin*/
+	box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #e9e8be;
+  /* background-color: #e9e8be;
+  background-color: #ffffff50; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,15 +18,33 @@ body {
 
 main {
   background-color: #ffffff;
-  height: 300px;
-  width: 300px;
+  border-radius: 25px;
+  padding: 15px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
+}
+
+#color {
+  background-color: #2a2a2a;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+#info {
+  border-radius: 25px;
+  padding: 30px;
 }
 
 #color-block {
 	/* background-color: none; -- Line not needed*/
   height: 150px;
   width: 150px;
+  border-radius: 25px;
+}
+
+.additional-colors {
+  background-color: #eeeeee;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
 }

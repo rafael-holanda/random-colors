@@ -9,8 +9,10 @@ function hexGenerator(){
 
 function colorSet(){
   color = hexGenerator();
+  console.log(color);
 	document.getElementById("color-block").style.backgroundColor = color;
   document.getElementById("background").style.backgroundColor = color + "50";
+  document.getElementById("hex").innerHTML = `<p>${color}</p>`;
 }
 
 colorSet();

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&display=swap');
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -9,8 +11,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  /* background-color: #e9e8be;
-  background-color: #ffffff50; */
+  font-family: 'Outfit', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,11 +31,6 @@ main {
   padding: 30px;
 }
 
-#info {
-  border-radius: 25px;
-  padding: 30px;
-}
-
 #color-block {
 	/* background-color: none; -- Line not needed*/
   height: 150px;
@@ -42,9 +38,47 @@ main {
   border-radius: 25px;
 }
 
-.additional-colors {
-  background-color: #eeeeee;
+#info {
+  border-radius: 25px;
+  padding: 30px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 16px;  
+}
+
+#color h1 {
+  color: #ffffff;
+}
+
+#info h1 {
+  color: #2a2a2a;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+#color p {
+  color: #ffffff;  
+}
+
+#info p {
+  color: #2a2a2a;
+}
+
+.color-code {
   width: 150px;
   height: 30px;
   border-radius: 15px;
+}
+
+#color .color-code {
+  background-color: #3d3d3d; /**/
+}
+
+#info .color-code {
+  background-color: #eeeeee;
 }

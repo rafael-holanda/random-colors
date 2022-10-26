@@ -7,6 +7,14 @@ function hexGenerator(){
   return hex;
 }
 
+// Function to convert hex format to RGB format // Needs to be finished
+/* function hexToRGB(hexColor){
+  rgbColor = hexColor;
+  for(var i = 1; i < 7; i++){
+
+  }
+} */
+
 function colorSet(){
   color = hexGenerator();
   console.log(color);

@@ -1,59 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;600&display=swap");
 
 * {
-	padding: 0px;
-	margin: 0px;
-	/* Mantém o tamanho das boxes, sem somar com padding ou margin*/
-	box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  /* Mantém o tamanho das boxes, sem somar com padding ou margin*/
+  box-sizing: border-box;
 }
 
 html,
 body {
   height: 100%;
   width: 100%;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.5s;
 }
 
 main {
-  background-color: #ffffff;
-  border-radius: 25px;
-  padding: 15px;
-  display: flex;
-  text-align: center;
-}
-
-#color {
   background-color: #2a2a2a;
+  color: #ffffff;
   border-radius: 25px;
   padding: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
 }
 
 #color-block {
-	/* background-color: none; -- Line not needed*/
+  /* background-color: none; -- Line not needed*/
   height: 150px;
   width: 150px;
   border-radius: 25px;
-}
-
-#info {
-  border-radius: 25px;
-  padding: 30px;
+  transition: 0.5s;
 }
 
 h1 {
   font-weight: 300;
-  font-size: 16px;  
-}
-
-#color h1 {
-  color: #ffffff;
-}
-
-#info h1 {
-  color: #2a2a2a;
+  font-size: 16px;
 }
 
 p {
@@ -61,24 +47,23 @@ p {
   font-size: 14px;
 }
 
-#color p {
-  color: #ffffff;  
-}
-
-#info p {
-  color: #2a2a2a;
-}
-
 .color-code {
+  background-color: #3d3d3d;
   width: 150px;
   height: 30px;
   border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
 }
 
-#color .color-code {
-  background-color: #3d3d3d; /**/
-}
-
-#info .color-code {
-  background-color: #eeeeee;
+button {
+  margin-top: 10px;
+  cursor: pointer;
+  color: #ffffff;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  transition: 0.5s;
 }

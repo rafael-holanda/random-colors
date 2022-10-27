@@ -1,27 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Random Colors</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-<body id="background">
-  <main>
-    <section id="color">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Random Colors</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body id="background">
+    <main class="card">
       <div id="color-block"></div>
       <h1>Random Colors</h1>
       <p>Hex</p>
       <div id="hex" class="color-code"></div>
-    </section>
-    <section id="info">
-      <h1>Additional Formats</h1>
       <p>RGB</p>
       <div id="rgb" class="color-code"></div>
-      <p>HSL</p>
-      <div class="color-code"></div>
-    </section>
-  </main>
-  <script src="main.js"></script>
-</body>
+      <button id="new-color" onclick="colorSet()">Generate new color</button>
+    </main>
+    <script src="main.js"></script>
+  </body>
 </html>
